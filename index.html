@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&family=Mulish&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/98db508811.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Travel</title>
+</head>
+
+<body>
+    <div id="partcles-js"></div>
+    <div class="button-to-top"> <span> &UpArrow; </span> </div>
+    <header>
+        <div class="nav__bg">
+            <div class="container">
+                <section class="header__section">
+                    <nav class="header__nav nav">
+
+                        <div class="nav__logo">
+                            <a href="#">
+                                <img src="img/logo.png" alt="Wild Location">
+                            </a>
+                        </div>
+    
+                        <div class="nav__language">
+                            <span>Рус</span><span>Eng</span>
+                        </div>
+    
+                        <ul class="nav__list">
+                            <li><a data-goto=".about__body" class="nav__link" href="#">О нас</a></li>
+                            <li><a data-goto=".search" class="nav__link" href="#">Туры</a></li>
+                            <li><a data-goto=".way" class="nav__link" href="#">Визы</a></li>
+                            <li><a data-goto=".blog" class="nav__link" href="#">Агенты</a></li>
+                            <li><a data-goto=".footer__list" class="nav__link" href="#">Контакты</a></li>
+                            <li><a data-goto=".review" class="nav__link" href="#">Помощь</a></li>
+                        </ul>
+    
+                        <div class="nav__burger">
+                            <span></span>
+                        </div>
+                    </nav>
+    
+                </section>
+            </div>
+        </div>
+
+        <div class="container">
+            <section class="about">
+                <div class="about__head">
+                    <div class="about__world world">
+                        <h1 class="world__title">Исследуйте мир<br>
+                            вместе с нами</h1>
+                        <p class="world__text">Брось себе вызов. Отправься в путешествия<br>
+                            в дикие уголки природы.</p>
+                    </div>
+
+                    <div class="about__search search">
+                        <h2 class="search__title">Быстрый поиск тура</h2>
+                        <input type="text" class="search__where" placeholder="Куда">
+                        <input type="text" class="search__when" placeholder="Когда">
+                        <input type="text" class="search__duration" placeholder="Продолжительность">
+                        <div class="search__list">
+                            <h2 class="search__list-title">Тип тура</h2>
+                            <div class="list-item">
+                                <p class="list-item__text">Эконом</p>
+                                <p class="list-item__text">Базовый</p>
+                                <p class="list-item__text">Премиум</p>
+                            </div>
+                        </div>
+                        <button type="submit" class="search__btn">Найти</button>
+                    </div>
+
+                </div>
+
+                <div class="about__body">
+                    <h2 class="us__title">Почему именно мы</h2>
+                    <div class="about__us us">
+                        <div class="us__box">
+                            <div class="us__icon">
+                                <img src="img/visa.png" alt="visa">
+                            </div>
+                            <p class="us__text">Визовая поддержка клиентов</p>
+                        </div>
+                        <div class="us__box">
+                            <div class="us__icon">
+                                <img src="img/world.png" alt="world">
+                            </div>
+                            <p class="us__text">Направления по всему миру</p>
+                        </div>
+                        <div class="us__box">
+                            <div class="us__icon">
+                                <img src="img/hunter.png" alt="hunter">
+                            </div>
+                            <p class="us__text">Сопровождение опытными гидами</p>
+                        </div>
+                        <div class="us__box">
+                            <div class="us__icon">
+                                <img src="img/smokehouse.png" alt="smokehouse">
+                            </div>
+                            <p class="us__text">Полное обеспечение снаряжением</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="way">
+            <div class="container">
+                <h2 class="main-way__title">Актуальные направления</h2>
+                <div class="way__body">
+
+                    <div class="way__box">
+                        <div class="way__img">
+                            <img src="img/way1.png" alt="way 1">
+
+                            <div class="way__price way-price">
+                                <p class="way-price__text">от <span>460$</span></p>
+                                <p class="way__date">26 октября 2018, 7 дней</p>
+                            </div>
+
+                        </div>
+                        <div class="way__content">
+                            <a href="" class="way__content-link">
+                                <h3 class="way__title">Кемпинг в Хардангере – сердце Региона фьордов</h3>
+                                <p class="way__text">Одно из лучших мест отдыха находится
+                                    в районе Хардангера, у туристов есть возможность ежедневно любоваться дикой природой
+                                    севера.
+                                </p>
+                                <a href="#" class="way__link">Подробнее</a>    
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="way__box">
+                        <div class="way__img">
+                            <img src="img/way2.png" alt="way 2">
+
+                            <div class="way__price way-price">
+                                <p class="way-price__text">от <span>520$</span></p>
+                                <p class="way__date">11 ноября 2018, 5 дней</p>
+                            </div>
+
+                        </div>
+                        <div class="way__content">
+                            <a href="" class="way__content-link">
+                                <h3 class="way__title">Треккинг по Согне-фьорд с восхождением на Гальхёпигген</h3>
+                                <p class="way__text">Уникальный поход совмещенный с путешествием по самому большому и
+                                    красивому
+                                    фьорду – Согне-фьорд.</p>
+                                <a href="#" class="way__link">Подробнее</a>    
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="way__box">
+                        <div class="way__img">
+                            <img src="img/way3.png" alt="way 3">
+
+                            <div class="way__price way-price">
+                                <p class="way-price__text">от <span>440$</span></p>
+                                <p class="way__date">12 ноября 2018, 5 дней</p>
+                            </div>
+
+                        </div>
+                        <div class="way__content">
+                            <a href="" class="way__content-link">
+                                <h3 class="way__title">Восхождение на гору Ушба в регионе Сванети</h3>
+                                <p class="way__text">Одна из самых знаменитых гор Кавказа. Расположена
+                                    она в регионе Сванети. Со сванского языка "уш" означает беда, "ба" — гору.
+                                    То есть гора, приносящая несчастье.</p>
+                                <a href="#" class="way__link">Подробнее</a>    
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="way__box">
+                        <div class="way__img">
+                            <img src="img/way4.png" alt="way 4">
+
+                            <div class="way__price way-price">
+                                <p class="way-price__text">от <span>560$</span></p>
+                                <p class="way__date">12 мая 2019, 8 дней</p>
+                            </div>
+
+                        </div>
+                        <div class="way__content">
+                            <a href="" class="way__content-link">
+                                <h3 class="way__title">Каякинг на каноэ по озеру Сайма в Финляндии</h3>
+                                <p class="way__text">Водный поход с элементами ориентирования и необычными
+                                    природными
+                                    объектами. Неделя настоящего отдыха для тех, кто любит ...</p>
+                                <a href="#" class="way__link">Подробнее</a>    
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="way__box">
+                        <div class="way__img">
+                            <img src="img/way5.png" alt="way 5">
+
+                            <div class="way__price way-price">
+                                <p class="way-price__text">от <span>630$</span></p>
+                                <p class="way__date">18 мая 2019, 8 дней</p>
+                            </div>
+
+                        </div>
+                        <div class="way__content">
+                            <a href="" class="way__content-link">
+                                <h3 class="way__title">Треккинг к Языку Тролля — Фьорд Sørfjorden, Норвегия
+                                </h3>
+                                <p class="way__text">Язык Тролля - без преувеличения самое известное и
+                                    культовое место в
+                                    Норвегии.
+                                    К нему не доехать на машине. Сюда могут попасть только те..</p>
+                                <a href="#" class="way__link">Подробнее</a>    
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="way__box">
+                        <div class="way__img">
+                            <img src="img/way6.png" alt="way 6">
+
+                            <div class="way__price way-price">
+                                <p class="way-price__text">от <span>700$</span></p>
+                                <p class="way__date">21 мая 2019, 9 дней</p>
+                            </div>
+
+                        </div>
+                        <div class="way__content">
+                            <a href="" class="way__content-link">
+                                <h3 class="way__title">Поход по Исландии - Лаугавегур - Ландманалуга
+                                </h3>
+                                <p class="way__text">За 9 ходовых дней (из них 2 дня – радиальные
+                                    выходы) пройдем ~ 135 км по
+                                    горам,
+                                    лавовым полям, разноцветным холмам и другим исландским природным..
+                                </p>
+                                <a href="#" class="way__link">Подробнее</a>    
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="main-way__link">
+                    <a href="#">Смотреть всё</a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="facts">
+            <div class="container">
+                <div class="facts__body">
+
+                    <div class="facts__box">
+                        <h3 class="facts__title">9</h3>
+                        <p class="facts__text">Лет работы</p>
+                    </div>
+
+                    <div class="facts__box">
+                        <h3 class="facts__title">62,500</h3>
+                        <p class="facts__text">Довольных клиентов</p>
+                    </div>
+
+                    <div class="facts__box">
+                        <h3 class="facts__title">112</h3>
+                        <p class="facts__text">Захватываюших туров</p>
+                    </div>
+
+                    <div class="facts__box">
+                        <h3 class="facts__title">23</h3>
+                        <p class="facts__text">Офиса в Беларуси</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="blog">
+            <div class="container">
+
+                <h2 class="blog__title">Наш блог</h2>
+
+                <div class="blog__body">
+                    <div class="big-blog">
+                        <h3 class="big-blog__title">10 мест на Земле, которые обязательно должен посетить каждый</h3>
+                        <p class="big-blog__text blog-date">20 октября 2018</p>
+                    </div>
+                    <div class="small-blog">
+                        <div class="small-blog__img">
+                            <img src="img/smallbox1.png" alt="travel 1">
+                        </div>
+                        <div class="small-blog__content">
+                            <h3 class="small-blog__title">Как стать успешным тревел-блогером</h3>
+                            <p class="small-blog__text">Блоги о путешествиях - это актуальное пространство,
+                                и каждый день оно становится более переполненным. И многие советы, которые.. </p>
+                            <div class="small-blog__date">
+                                <p class="blog-date">17 октября 2018</p>
+                                <p data-run="run" class="comments">208</p>
+                                <p class="like">
+                                    <i class="fas fa-heart"></i>
+                                    <span> 12</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="small-blog">
+                        <div class="small-blog__img">
+                            <img src="img/smallbox2.png" alt="travel 2">
+                        </div>
+                        <div class="small-blog__content">
+                            <h3 class="small-blog__title">Лайфхаки успешно-<br>го путешествия по Норвегии</h3>
+                            <p class="small-blog__text">Норвегия — пожалуй, лучшая страна для приключенчес-<br>
+                                кого туризма в Европе. Здесь есть все: горы для альпинистов..</p>
+                            <div class="small-blog__date">
+                                <p class="blog-date">12 октября 2018</p>
+                                <p data-run="run" class="comments">112</p>
+                                <p class="like">
+                                    <i class="fas fa-heart"></i>
+                                    <span> 21</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog__link">
+                    <a href="#">Смотреть всё</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="review">
+            <div class="container">
+
+                <div class="review__body">
+                    <h2 class="review__title">Отзывы наших клиентов</h2>
+                    <div class="circle">
+                        <img src="img/disk.png" alt="user review">
+                    </div>
+                    <p class="review__text">Спасибо, что даете почувствовать себя сводобными! Ходили дважды, и<br>
+                        каждый раз заряжались энергией на год вперед. Отдельное спасибо<br> гиду Михаилу!</p>
+                    <h6 class="review__user">София</h6>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <section class="footer__section">
+
+                <ul class="footer__list">
+                    <li>Email: <a class="footer__link" href="#"> wildvacation@gmail.com</a></li>
+                    <li>Телефон: <a class="footer__link" href="#"> +375 33 888-44-22</a></li>
+                    <li>Мы в соцсетях:
+                        <a class="footer__link" href="https://www.instagram.com/">
+                            <i class="fab fa-instagram"></i></a>
+                        <a class="footer__link" href="https://vk.com/">
+                            <i class="fab fa-vk"></i></a>
+                        <a class="footer__link" href="https://twitter.com/?lang=ru">
+                            <i class="fab fa-twitter"></i></a>
+                        <a class="footer__link"
+                            href="https://www.facebook.com/campaign/landing.php?campaign_id=1557999815&extra_1=s%7Cc%7C294723539698%7Ce%7Cfacebook%7C&placement=&creative=294723539698&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1557999815%26adgroupid%3D58938663837%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1001493%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=Cj0KCQiArt6PBhCoARIsAMF5wag3Y-hrBCkr8iGqZIKKbhsGHQacdVfgHJ3X7KD0__89nJV8X4iTgHQaAizUEALw_wcB">
+                            <i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>Адрес: <a class="footer__link" href="#"> Немига 5а, офис 18, Минск</a></li>
+                    <li><a class="footer__link" href="#"> +375 29 963-85-21</a></li>
+                </ul>    
+
+            </section>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
